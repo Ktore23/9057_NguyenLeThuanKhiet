@@ -113,7 +113,7 @@ $roleDisplay = ($userRole == 'admin') ? 'Admin' : 'User';
                                 <?php
                                 if ($result->num_rows > 0) {
                                     while ($row = $result->fetch_assoc()) {
-                                        $genderImage = ($row['Phai'] == 'NU') ? 'images/nu.jpg' : 'images/nam.jpg';
+                                        $genderImage = ($row['Phai'] == 'NU') ? 'images/nu.png' : 'images/nam.png';
                                         $genderText = ($row['Phai'] == 'NU') ? 'Nữ' : 'Nam';
                                         echo "<tr>";
                                         echo "<td>" . $row['Ma_NV'] . "</td>";
